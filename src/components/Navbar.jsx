@@ -26,7 +26,7 @@ export default function Navbar() {
         </div>
         <nav className="hidden lg:flex flex-row items-center gap-6">
           <Link
-            to="/"
+            to="home"
             spy={true}
             smooth={true}
             duration={500}
@@ -35,7 +35,7 @@ export default function Navbar() {
             Home
           </Link>
           <Link
-            to="/"
+            to="features"
             spy={true}
             smooth={true}
             duration={500}
@@ -44,7 +44,7 @@ export default function Navbar() {
             Features
           </Link>
           <Link
-            to="/"
+            to="destination"
             spy={true}
             smooth={true}
             duration={500}
@@ -53,7 +53,7 @@ export default function Navbar() {
             Destinations
           </Link>
           <Link
-            to="/"
+            to="about"
             spy={true}
             smooth={true}
             duration={500}
@@ -62,7 +62,7 @@ export default function Navbar() {
             About
           </Link>
           <Link
-            to="/"
+            to="contact"
             spy={true}
             smooth={true}
             duration={500}
@@ -87,7 +87,7 @@ export default function Navbar() {
         } lg:hidden flex flex-col absolute bg-darkBackground text-white left-0 top-20 font-semibold text-xl text-center pt-8 pb-4 gap-8 w-full h-fit transition-transform duration-300`}
       >
         <Link
-          to="/"
+          to="home"
           spy={true}
           smooth={true}
           duration={500}
@@ -96,7 +96,7 @@ export default function Navbar() {
           Home
         </Link>
         <Link
-          to="/"
+          to="features"
           spy={true}
           smooth={true}
           duration={500}
@@ -105,7 +105,7 @@ export default function Navbar() {
           Features
         </Link>
         <Link
-          to="/"
+          to="destination"
           spy={true}
           smooth={true}
           duration={500}
@@ -114,7 +114,7 @@ export default function Navbar() {
           Destinations
         </Link>
         <Link
-          to="/"
+          to="about"
           spy={true}
           smooth={true}
           duration={500}
@@ -123,7 +123,7 @@ export default function Navbar() {
           About
         </Link>
         <Link
-          to="/"
+          to="contact"
           spy={true}
           smooth={true}
           duration={500}
