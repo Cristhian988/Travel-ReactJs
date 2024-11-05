@@ -45,10 +45,10 @@ export default function Features() {
             <img src={pic2} alt="img" />
           </div>
           <div className="space-y-3">
-            <h1 className="font-semibold text-xl">Friendly Service</h1>
+            <h1 className="font-semibold text-xl">Unforgettable experience</h1>
             <p className="text-[#898888]">
-              We will provide excellent and friendly service for the sake of our
-              customers.
+              We will provide excellent and Unforgettable experience for the
+              sake of our customers.
             </p>
           </div>
         </div>
@@ -57,10 +57,10 @@ export default function Features() {
             <img src={pic3} alt="img" />
           </div>
           <div className="space-y-3">
-            <h1 className="font-semibold text-xl">Friendly Service</h1>
+            <h1 className="font-semibold text-xl">Affordable prices</h1>
             <p className="text-[#898888]">
-              We will provide excellent and friendly service for the sake of our
-              customers.
+              We will provide excellent and Affordable prices for the sake of
+              our customers.
             </p>
           </div>
         </div>

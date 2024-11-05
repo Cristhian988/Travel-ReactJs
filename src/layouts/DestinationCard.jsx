@@ -2,7 +2,7 @@ import React from "react";
 import Button from "./Button";
 
 export default function DestinationCard(props) {
-  const backgroundColor = `brightColor`;
+  const backgroundColor = `bg-brightColor`;
   return (
     <div className="w-full lg:w-2/6 cursor-pointer hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
       <img className="rounded-t-lg" src={props.img} alt="img" />
